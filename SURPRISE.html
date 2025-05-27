@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сюрприз для папы!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #fff5f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #d32f2f;
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .certificate {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #d32f2f;
+            margin: 20px 0;
+            padding: 15px;
+            border: 3px dashed #d32f2f;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        .gift-options {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 40px auto;
+            max-width: 900px;
+        }
+        .gift-option {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .gift-option:hover {
+            transform: translateY(-10px);
+        }
+        .gift-option img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .gift-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #d32f2f;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .gift-link:hover {
+            background-color: #b71c1c;
+        }
+        .certificate-image {
+            max-width: 400px;
+            margin: 20px auto;
+            border: 10px solid #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        .certificate-image img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Специально для тебя мы подготовили сертификат на 38 тысяч рублей! Но потратить ты их можешь только на одну из двух, выбранных нами, вещей:</h1>
+
+    <div class="photo-container">
+        <!-- Замените "photo.jpg" на путь к вашей фотографии -->
+        <img src="c:\Users\козявка\Downloads\giphy.gif" alt="Фотография папы">
+    </div>
+
+    <div class="photo-container">
+        <!-- Замените "photo.jpg" на путь к вашей фотографии -->
+        <img src="c:\Users\козявка\Downloads\giphy.gif" alt="Фотография папы">
+    </div>
+    
+        <div class="photo-container">
+        <!-- Замените "photo.jpg" на путь к вашей фотографии -->
+        <img src="c:\Users\козявка\Downloads\giphy.gif" alt="Фотография папы">
+    </div>
+
+    
+    <div class="gift-options">
+        <!-- Первый вариант подарка -->
+        <div class="gift-option">
+            <!-- Замените "gift1.jpg" на изображение первого подарка -->
+            <img src="file:///C:/Users/%D0%BA%D0%BE%D0%B7%D1%8F%D0%B2%D0%BA%D0%B0/Downloads/47042d7fc6de29fe9e2fbfe2916d0f69.webp" alt="Первый вариант подарка">
+            <h3>АЙФООООУННН 12</h3>
+            <!-- Замените "#gift1" на реальную ссылку -->
+            <a href="https://store77.net/apple_iphone_12/telefon_apple_iphone_12_128gb_black/" class="gift-link">ОМАЙГАД ДАААА ХОЧУ АЙФООООУННН</a>
+        </div>
+        
+        <!-- Центральная картинка (декоративная) -->
+        <div class="gift-option">
+            <img src="c:\Users\козявка\Downloads\g7qn7tspucre1.webp" alt="Выбор подарка">
+        
+        </div>
+        
+        <!-- Второй вариант подарка -->
+        <div class="gift-option">
+            <!-- Замените "gift2.jpg" на изображение второго подарка -->
+            <img src="file:///C:/Users/%D0%BA%D0%BE%D0%B7%D1%8F%D0%B2%D0%BA%D0%B0/Downloads/4df2beb828c5ab18320401ee6b3203f8.webp" alt="Второй вариант подарка">
+            <h3>САМСУУУУНГ ГЭЛАКСИ ЭС24 ФЕ 5ДЖИИИ
+            </h3>
+            <!-- Замените "#gift2" на реальную ссылку -->
+            <a href="https://store77.net/telefony_samsung/telefon_samsung_galaxy_s24_fe_5g_8_256gb_grafitovyy/" class="gift-link">ВООО ТО ЧТО НУЖНО
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Можно добавить анимацию при наведении на подарки
+        document.querySelectorAll('.gift-option').forEach(option => {
+            option.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.05)';
+            });
+            option.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
